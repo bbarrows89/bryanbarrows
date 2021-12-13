@@ -1,0 +1,33 @@
+# Node Modules
+node_modules
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Gatsby files
+.cache/
+public
+
+# Mac files
+.DS_Store
+
+# Yarn
+.yarn-integrity
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Editors
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Local Netlify folder
+.netlify

@@ -1,0 +1,21 @@
+{
+  "name": "gatsby-starter-purist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sebsojeda/gatsby-starter-purist",
+  "author": "Sebastian Ojeda <hello@sebastianojeda.com> (@sebsojeda)",
+  "license": "0BSD",
+  "private": true,
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.21.21",
+    "gatsby-theme-purist": "^1.3.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
