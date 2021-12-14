@@ -5,11 +5,7 @@ module.exports = {
     defaultTitle: "Bryan Barrows",
     titleTemplate: "%s • Bryan Barrows",
     description: "The blog and website of Bryan Barrows, Workflows Advocate at Okta, based in Seattle WA",
-    author: {
-      name: "Bryan Barrows",
-      link: "https://bryanbarrows.me",
-      email: "bryanbarrows@live.com"
-    },
+    author: "bryanbarrows@live.com (Bryan Barrows)",
     hero: {
       heading: "Bryan Barrows",
       subHeading: "Workflows Advocate at Okta - Based in Seattle, WA",
@@ -51,8 +47,8 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: 'src/gatsby-theme-purity/components/Logo/favicon.svg',
-        cache_busting_mode: 'none'
+        cache_busting_mode: 'none',
+        icon: 'src/gatsby-theme-purity/components/Logo/favicon.svg'
       },
     },
     {
@@ -74,11 +70,6 @@ module.exports = {
                 description
                 siteUrl
                 site_url: siteUrl
-                author {
-                  name
-                  link
-                  email
-                }
               }
             }
           }
@@ -132,9 +123,6 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
-         workboxConfig: {
-            globPatterns: ['**/icon-path*']
-        }
       }
     }
   ],
