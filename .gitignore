@@ -2,7 +2,7 @@
 node_modules
 
 # draft posts
-articles/drafts
+content/articles/drafts
 
 # Logs
 logs
