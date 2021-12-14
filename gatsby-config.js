@@ -55,6 +55,7 @@ module.exports = {
       options: {
         name: `markdown-pages`,
         path: `${__dirname}/content/articles`,
+        ignore: process.env.NODE_ENV === `production` && [`**/articles/drafts`]
       },
     },
     {

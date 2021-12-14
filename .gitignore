@@ -1,6 +1,9 @@
 # Node Modules
 node_modules
 
+# draft posts
+articles/drafts
+
 # Logs
 logs
 *.log
