@@ -5,6 +5,11 @@ module.exports = {
     defaultTitle: "Bryan Barrows",
     titleTemplate: "%s • Bryan Barrows",
     description: "The blog and website of Bryan Barrows, Workflows Advocate at Okta, based in Seattle WA",
+    author: {
+      name: "Bryan Barrows",
+      link: "https://bryanbarrows.me",
+      email: "bryanbarrows@live.com"
+    }
     hero: {
       heading: "Bryan Barrows",
       subHeading: "Workflows Advocate at Okta - Based in Seattle, WA",
@@ -69,6 +74,11 @@ module.exports = {
                 description
                 siteUrl
                 site_url: siteUrl
+                author {
+                  name
+                  link
+                  email
+                }
               }
             }
           }
