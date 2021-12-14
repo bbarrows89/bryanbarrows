@@ -9,7 +9,7 @@ module.exports = {
       name: "Bryan Barrows",
       link: "https://bryanbarrows.me",
       email: "bryanbarrows@live.com"
-    }
+    },
     hero: {
       heading: "Bryan Barrows",
       subHeading: "Workflows Advocate at Okta - Based in Seattle, WA",
