@@ -44,11 +44,7 @@ module.exports = {
         name: `Bryan Barrows`,
         short_name: `Bryan Barrows`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
-        display: `standalone`,
-        cache_busting_mode: 'none',
-        icon: 'src/gatsby-theme-purity/components/Logo/favicon.svg'
+        icon: 'static/favicon.png'
       },
     },
     {
@@ -130,8 +126,7 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-offline',
-      options: {
-      }
+      options: {}
     }
   ],
 }
