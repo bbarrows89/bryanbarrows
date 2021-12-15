@@ -2,7 +2,7 @@
 node_modules
 
 # draft posts
-drafts
+/articles/drafts
 
 # Logs
 logs
@@ -31,6 +31,9 @@ public
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Env variables
+.env.*
 
 # Local Netlify folder
 .netlify
