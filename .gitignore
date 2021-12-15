@@ -32,5 +32,8 @@ public
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# Env variables
+.env.*
+
 # Local Netlify folder
 .netlify

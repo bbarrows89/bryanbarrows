@@ -121,6 +121,14 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-plugin-social9-socialshare",
+      options: {
+        content:  "ca24ce819d944595a0a4c3f53125d1a8",
+        async: true,
+        defer: true
+      }
+    },
+    {
       resolve: 'gatsby-plugin-offline',
       options: {
       }
